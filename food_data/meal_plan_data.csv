@@ -141,7 +141,7 @@ Curried Lentil and Quinoa Bowl,400,15,60,15,Vegan
 Roasted Cauliflower Steaks,250,5,40,5,Vegan
 Spicy Black Bean Soup,300,15,50,10,Vegan
 Grilled Vegetable Skewers,200,5,30,8,Vegan
-Sesame Tofu with Broccoli,400,20,35,15,Vegan
+Sesame Tofu with Broccoli,400,20,35,15,Vegan 
 Peanut Butter Banana Smoothie,300,10,40,10,Vegan
 Roasted Chickpeas,200,10,30,5,Vegan
 Sweet Potato Fries,180,2,40,7,Vegan
@@ -199,3 +199,104 @@ Vegetable Biryani,600,15,75,15,Vegan
 Spinach and Cheese Stuffed Shells,500,20,60,25,Vegetarian
 Pork Tenderloin with Apples,400,35,20,15,Non-Vegetarian
 Creamy Vegan Pasta,450,15,70,15,Vegan
+Spicy Peanut Tofu Stir-Fry,450,20,40,20,Vegan
+Lemon Garlic Shrimp,300,25,5,10,Non-Vegetarian
+Roasted Vegetable Quinoa Salad,350,10,60,10,Vegan
+Mango Chicken Salad,400,30,15,10,Non-Vegetarian
+Vegetable Pad Thai,600,15,70,20,Vegetarian
+Chickpea Fritters with Tzatziki,300,15,45,10,Vegan
+BBQ Lentil Burgers,350,20,50,8,Vegan
+Teriyaki Salmon Bowl,500,35,40,15,Non-Vegetarian
+Curried Sweet Potato Soup,250,6,40,5,Vegan
+Mediterranean Couscous Salad,400,12,60,8,Vegan
+Roasted Cauliflower Tacos,350,10,45,15,Vegan
+Szechuan Spicy Tofu,400,20,30,15,Vegan
+Chicken and Vegetable Stir-Fry,400,30,20,10,Non-Vegetarian
+Vegetable and Chickpea Stew,300,10,50,10,Vegan
+Pesto Zoodles,250,10,20,8,Vegan
+Lentil and Spinach Curry,400,15,50,10,Vegan
+Stuffed Eggplant with Quinoa,350,12,45,10,Vegan
+Coconut Lentil Curry,450,18,50,15,Vegan
+Buffalo Tempeh Tacos,400,25,35,10,Vegan
+Savory Oatmeal with Mushrooms,300,10,50,10,Vegan
+Vegetable and Noodle Stir-Fry,400,15,60,15,Vegan
+Chicken Fettuccine Alfredo,600,35,50,30,Non-Vegetarian
+Cauliflower Rice Bowl,200,5,40,5,Vegan
+Lentil Soup with Kale,250,12,35,5,Vegan
+Shrimp Fried Rice,400,25,45,10,Non-Vegetarian
+Eggplant Stir-Fry,350,10,40,15,Vegan
+Sweet and Sour Tofu,450,20,35,15,Vegan
+Creamy Tomato Basil Soup,250,5,30,10,Vegan
+Balsamic Grilled Chicken,350,30,10,15,Non-Vegetarian
+Vegan Mushroom Stroganoff,500,10,70,20,Vegan
+Zucchini Noodles with Pesto,300,10,25,10,Vegan
+Spinach Artichoke Pasta,450,15,65,15,Vegetarian
+Chickpea Shawarma Wrap,400,20,45,10,Vegan
+Caribbean Quinoa Salad,350,12,60,8,Vegan
+Grilled Eggplant and Tomato Sandwich,300,8,40,15,Vegan
+Lentil and Vegetable Loaf,400,20,40,15,Vegan
+Stuffed Zucchini with Rice,350,10,50,10,Vegan
+Peach and Arugula Salad,200,5,30,5,Vegan
+BBQ Jackfruit Tacos,400,15,50,10,Vegan
+Vegetable Korma,500,15,70,20,Vegetarian
+Asian Cucumber Salad,150,4,25,5,Vegan
+Tuna Poke Bowl,450,25,30,15,Non-Vegetarian
+Curry Roasted Cauliflower,250,6,30,8,Vegan
+Vegetarian Stuffed Bell Peppers,400,20,50,15,Vegan
+Peanut Butter Oatmeal,350,15,50,10,Vegan
+Mushroom and Spinach Risotto,500,15,60,20,Vegetarian
+Baked Lemon Herb Cod,300,25,0,10,Non-Vegetarian
+Roasted Brussels Sprouts with Balsamic,200,5,20,10,Vegan
+Quinoa and Black Bean Tacos,400,15,50,10,Vegan
+Vegetable Fajitas,350,10,60,8,Vegan
+food_name,calories,protein,carbs,fat,diet_type
+Almond Butter Banana Toast,300,8,40,15,Vegan
+Roasted Chickpea Salad,350,15,45,10,Vegan
+Lemon Herb Quinoa,250,8,45,5,Vegan
+Shrimp Tacos with Avocado Salsa,400,30,30,15,Non-Vegetarian
+Carrot Ginger Soup,200,4,30,6,Vegan
+Veggie Sushi Rolls,250,10,40,5,Vegan
+Black Bean and Corn Salad,300,15,50,5,Vegan
+Greek Quinoa Bowl,450,20,60,10,Vegetarian
+Baked Zucchini Fries,200,5,35,8,Vegan
+Honey Garlic Tofu,400,25,30,15,Vegan
+Sweet Potato and Chickpea Buddha Bowl,500,15,60,20,Vegan
+Vegetarian Chili Mac,450,18,55,10,Vegetarian
+Creamy Avocado Pasta,400,10,60,20,Vegan
+Chicken and Broccoli Stir-Fry,350,30,20,10,Non-Vegetarian
+Vegan Caesar Salad,300,10,25,15,Vegan
+Mediterranean Chickpea Wrap,400,15,50,10,Vegan
+Mango and Black Bean Salad,350,10,60,5,Vegan
+Spinach and Feta Stuffed Portobello,300,20,10,15,Vegetarian
+Egg and Avocado Toast,300,12,30,15,Vegetarian
+Cabbage and Tofu Stir-Fry,400,15,50,10,Vegan
+Peanut Noodle Salad,450,12,60,20,Vegan
+Vegetarian Biryani,600,18,80,15,Vegetarian
+Smoky Black Bean Burger,350,20,45,10,Vegan
+Oven-Baked Falafel,300,12,40,10,Vegan
+Grilled Vegetable Panini,400,15,50,15,Vegetarian
+Beet and Walnut Salad,250,8,35,10,Vegan
+Cheesy Cauliflower Bake,400,12,30,20,Vegetarian
+Vegan Jambalaya,500,18,70,15,Vegan
+Thai Red Curry with Tofu,450,15,55,15,Vegan
+Sweet Potato and Lentil Soup,300,12,50,10,Vegan
+Vegetarian Lasagna,600,20,70,25,Vegetarian
+Mediterranean Pasta Salad,400,10,60,15,Vegan
+Mushroom and Quinoa Stuffed Peppers,350,15,45,10,Vegan
+Thai Basil Chicken,400,30,20,15,Non-Vegetarian
+Roasted Butternut Squash Salad,250,6,40,10,Vegan
+Buffalo Cauliflower Wings,300,8,30,15,Vegan
+Zucchini and Corn Fritters,400,12,50,15,Vegan
+Quinoa Stuffed Zucchini,350,10,45,10,Vegan
+Lemon Dill Baked Salmon,400,35,0,25,Non-Vegetarian
+Vegan Fettuccine Alfredo,500,12,70,20,Vegan
+Vegetable Biryani,600,18,80,15,Vegan
+Apple Cinnamon Overnight Oats,250,10,40,5,Vegan
+Buffalo Chickpea Wrap,400,20,45,10,Vegan
+Chili Lime Chicken,350,30,15,10,Non-Vegetarian
+Vegetarian Stuffed Cabbage Rolls,400,15,50,10,Vegan
+Savory Potato Wedges with Dip,300,6,45,15,Vegan
+Tofu Pad See Ew,500,20,70,15,Vegan
+Garlic Butter Shrimp Pasta,600,35,50,20,Non-Vegetarian
+Roasted Brussels Sprouts with Bacon,400,15,30,25,Non-Vegetarian
+Pea and Mint Soup,250,8,30,5,Vegan
