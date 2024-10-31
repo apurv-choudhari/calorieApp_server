@@ -23,10 +23,16 @@ def preprocess_data():
             - scaled_features (ndarray): Normalized feature values.
             - goals (Series): Corresponding goals for each meal.
     """
+    # Convert the 'calories' column to numeric, coercing errors to NaN
+    meal_data['calories'] = pd.to_numeric(meal_data['calories'], errors='coerce')
+
+    # Drop rows with NaN values in 'calories'
+    meal_data.dropna(subset=['calories'], inplace=True)
+
     # Adding a 'goal' column based on calorie values
     meal_data['goal'] = meal_data['calories'].apply(
-        lambda x: 'Weight Loss'
-        if x <= 300 else ('Muscle Gain' if x >= 400 else 'Maintenance'))
+        lambda x: 'Weight Loss' if x <= 300 else ('Muscle Gain' if x >= 400 else 'Maintenance')
+    )
 
     # Selecting relevant features for model training
     features = meal_data[['calories', 'protein', 'carbs', 'fat']]
