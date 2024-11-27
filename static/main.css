@@ -1,13 +1,197 @@
+/* Navbar Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 0.8rem 1.5rem; /* Adjusts spacing */
+  background: linear-gradient(90deg, #007bff, #0056b3); /* Gradient background */
+  border-bottom: 3px solid #ff6f61; /* Bold and modern border at the bottom */
+  transition: background 0.3s ease-in-out; /* Smooth transition for background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar:hover {
+  background: linear-gradient(90deg, #0056b3, #007bff); /* Inverse gradient on hover */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff; /* White text for contrast */
+  text-transform: uppercase;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Subtle glow effect */
+  transition: transform 0.2s ease-in-out; /* Animation on hover */
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  color: #ff6f61; /* Highlight color on hover */
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 0 0.8rem; /* Adds spacing between links */
+  position: relative;
+  transition: color 0.3s, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff6f61; /* Highlighted color on hover */
+  transform: translateY(-3px); /* Gentle upward animation */
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ff6f61;
+  transition: width 0.3s ease-in-out;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; /* Underline animation effect */
+}
+
+/* Navbar Text */
+.navbar-text {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-right: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-text:hover {
+  color: #ff6f61; /* Highlighted color on hover */
+}
+
+/* Streak Badge */
+.streak-badge {
+  background: linear-gradient(45deg, #ff6f61, #ff8e72); /* Gradient for badge */
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.streak-badge:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+/* Fire Emoji Styling */
+.streak-badge .fire-emoji {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  animation: flicker 1s infinite; /* Flickering animation */
+}
+
+/* Flicker Animation */
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+  .streak-badge {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}
+
+/* made changes here */
+
+
+
+
+
+
+.navbar {
+  background-color: #f8f9fa !important; /* Light gray for the header background */
+  border-bottom: 2px solid #007bff; /* Adds a blue border at the bottom */
+  margin-bottom: 30px;
+}
+
+.nav-color {
+  background: #d8b26e !important; /* Ensure priority */
+  color: #bde2bd;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #007bff; /* Makes nav links consistent with the theme */
+}
+
+
+/* Header Navigation Styling */
+.navbar {
+padding: 0.8rem 1.5rem; /* Adjusts vertical and horizontal spacing */
+}
+
+.navbar-brand {
+font-size: 1.8rem;
+font-weight: 600;
+color: #007bff; /* Primary color */
+margin-right: 2rem; /* Spacing to the right of the brand */
+}
+
+.navbar-nav .nav-link {
+margin: 0 0.8rem; /* Adds spacing between nav links */
+font-size: 1.1rem; /* Makes links more prominent */
+color: #202225 !important; /* Ensures color is applied */
+}
+
+.navbar-text {
+font-size: 1rem;
+color: #083760; /* Subtle text color */
+}
+
+/* Streak Badge Alignment */
+.streak-badge {
+margin-left: 1.5rem;
+padding: 5px 15px;
+font-size: 1rem;
+}
+
+/* 
+
+
 .nav-color{
     background: #d8b26e;
     font-family: Verdana, sans-serif;
     color: #bde2bd;
-}
+} */
 
 body {
   background: #fafafa;
   color: #333333;
-  margin-top: 5rem;
+  margin-top: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -133,6 +317,7 @@ img {
   text-align: center;
   padding: 0 350px;
 }
+
 
 .carousel-fade .carousel-item, .carousel-item img  {
   max-height: 90vh;

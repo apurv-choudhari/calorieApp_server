@@ -38,12 +38,12 @@ This guide provides step-by-step instructions for installing and setting up META
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/deekay2310/calorieApp_server.git
+   git clone https://github.com/RAV-Organization/SE_Project3_calorieApp_server.git
    ```
 
    Or download the repository as a `.zip` file and extract it to your local machine:
    
-   [GitHub Download Link](https://github.com/deekay2310/calorieApp_server/archive/refs/heads/main.zip)
+   [GitHub Download Link](https://github.com/RAV-Organization/SE_Project3_calorieApp_server/archive/refs/heads/meta_2.0_final.zip)
 
 2. **Navigate to the Project Directory**
 

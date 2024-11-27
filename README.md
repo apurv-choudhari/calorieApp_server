@@ -1,41 +1,34 @@
-# walkthrough video: METAFIT
+# walkthrough video: METAFIT2.0
 
-https://youtu.be/4UmnU2iFulc
+[![Watch the video](https://img.youtube.com/vi/eSvL_QRlxeU/0.jpg)](https://www.youtube.com/watch?v=eSvL_QRlxeU)
+
 
 ## Why chose Metafit?
 https://github.com/user-attachments/assets/ad8074ca-386d-49f0-b6ea-cd2ffd9b1d58
 
 
 
-# walkthrough video: from phase 3  
-https://www.youtube.com/watch?v=kXsI3x8_JAY
-
-# walkthrough video: from phase 2
-
-
-https://github.com/utsavll0/calorieApp_server/assets/122955760/54f2292f-86fa-4b4b-b263-63d470dcd80b
-
 
 <br>
 <br>
 
 
-[![MIT license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/anuj672/calorieApp_server/blob/main/LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10211870.svg)](https://doi.org/10.5281/zenodo.10211870)
+[![MIT license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/RAV-Organization/SE_Project3_calorieApp_server/blob/meta_2.0_final/LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14226770.svg)](https://doi.org/10.5281/zenodo.14226770)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Test and Formatting](https://github.com/anuj672/calorieApp_server/actions/workflows/code_cov.yml/badge.svg)](https://github.com/anuj672/calorieApp_server/actions/workflows/code_cov.yml)
-[![contributors](https://img.shields.io/github/contributors/anuj672/calorieApp_server)](https://github.com/anuj672/calorieApp_server/graphs/contributors)
+[![contributors](https://img.shields.io/github/contributors/RAV-Organization/SE_Project3_calorieApp_server)](https://github.com/anuj672/calorieApp_server/graphs/contributors)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
-![last commit](https://img.shields.io/github/last-commit/anuj672/calorieApp_server)
+![last commit](https://img.shields.io/github/last-commit/RAV-Organization/SE_Project3_calorieApp_server)
 [![Code Coverage](https://github.com/apurv-choudhari/calorieApp_server/actions/workflows/Code_Coverage.yml/badge.svg)](https://github.com/apurv-choudhari/calorieApp_server/actions/workflows/Code_Coverage.yml)
 [![CodeQL Advanced](https://github.com/apurv-choudhari/calorieApp_server/actions/workflows/codeql.yml/badge.svg)](https://github.com/apurv-choudhari/calorieApp_server/actions/workflows/codeql.yml)
 [![Flake8](https://github.com/apurv-choudhari/calorieApp_server/actions/workflows/flake8.yml/badge.svg)](https://github.com/apurv-choudhari/calorieApp_server/actions/workflows/flake8.yml)
 [![Pylint Lint](https://github.com/apurv-choudhari/calorieApp_server/actions/workflows/Pylint.yml/badge.svg)](https://github.com/apurv-choudhari/calorieApp_server/actions/workflows/Pylint.yml)
 <!-- ![github workflow](https://github.com/utsavll0/calorieApp_server/actions/workflows/code_cov.yml/badge.svg)
 ![github workflow](https://github.com/utsavll0/calorieApp_server/actions/workflows/style_checker.yml/badge.svg) -->
-[![GitHub issues](https://img.shields.io/github/issues/anuj672/calorieApp_server)](https://github.com/anuj672/calorieApp_server/issues)
-[![closed issues](https://img.shields.io/github/issues-closed/anuj672/calorieApp_server)](https://github.com/anuj672/calorieApp_server/issues?q=is%3Aissue+is%3Aclosed)
-![Fork](https://img.shields.io/github/forks/anuj672/calorieApp_server)
+[![GitHub issues](https://img.shields.io/github/issues/RAV-Organization/SE_Project3_calorieApp_server)](https://github.com/RAV-Organization/SE_Project3_calorieApp_server/issues)
+[![closed issues](https://img.shields.io/github/issues-closed/RAV-Organization/SE_Project3_calorieApp_server)](https://github.com/RAV-Organization/SE_Project3_calorieApp_server/issues?q=is%3Aissue+is%3Aclosed)
+![Fork](https://img.shields.io/github/forks/RAV-Organization/SE_Project3_calorieApp_server)
 <!-- [![codecov](https://codecov.io/gh/deekay2310/calorieApp_server/branch/main/graph/badge.svg?token=IQW5PLLE22)](https://codecov.io/gh/deekay2310/calorieApp_server) -->
 <!--Badges-->
 <!-- <a href="https://github.com/utsavll0/calorieApp_server/fork" target="blank">
@@ -138,58 +131,67 @@ METAFIT is an easy to use application that keeps track of a user's daily calorie
  
  ## Register
  
-<img src=https://github.com/utsavll0/calorieApp_server/blob/main/static/img/register_page.png>
+![image](https://github.com/user-attachments/assets/180ee5a9-9302-49b8-afd0-e4c899bea12e)
+
 This is the page where a new user can register to use our application. It contains fields like username, email, password, current weight, current height, target weight which the user wants to achieve and the target date. All these fields, once entered, will store in the MongoDB database. 
 
 
  ## Login
 
-<img src=https://github.com/utsavll0/calorieApp_server/blob/main/static/img/login_page.png>
+![image](https://github.com/user-attachments/assets/a804baf0-09d4-4a94-9197-9eb9eae42699)
+
 This is the login page wherein the user can access the functionalities of our application. 
 
 
  ## Set User Profile
  
-<img src=https://github.com/utsavll0/calorieApp_server/blob/main/static/img/profile_update.png>
+![image](https://github.com/user-attachments/assets/070b7463-3f25-486d-b687-0f3ac63f32d8)
+
 This is the page where the user can update his profile. The updated profile will update in the MongoDB database and display it in the frontend. 
 
 
  ## Enter Calories in 
-<img src=https://github.com/utsavll0/calorieApp_server/blob/main/static/img/Calorie_intake.png>
+![image](https://github.com/user-attachments/assets/268d72f4-1239-4c8f-a59d-23b343287643)
+
 This is the page where the user can enter the calories taken. The dropdown contains various food items and its calories. Once selected, it will update it in the database. 
 
 
  ## Check Your Plan
 
-<img src=https://github.com/utsavll0/calorieApp_server/blob/main/static/img/Your_plan_final.jpeg>
+![image](https://github.com/user-attachments/assets/66eabdcd-c97b-4dde-8a14-601ad24f4d6d)
+
 This is the page where the user can see their history in the form of a bar graph. This graph contains the data from last 7 days. The user can see their progress and can keep a track of how much calories the user needs to burn or intake to achieve their goal within the target date. The x-axis contains the date from last 7 days to the current date and y-axis contains the calories.
 
 
  ## Adding Friends
 
-<img src=https://github.com/utsavll0/calorieApp_server/blob/main/static/img/friends_tab.png>
+![image](https://github.com/user-attachments/assets/76090c53-8ddd-40f8-9384-8d5ba999c426)
+
 - This page contains the list of "My Friends" and "Add friends". Add friends contains all the users who have registered to our application. By selecting the users, they will showup in "My friends" section. The main purpose of this is to share the calories data via email.
 
  ## Enter burnout
-<img src=https://github.com/utsavll0/calorieApp_server/blob/main/static/img/workout.png>
+![image](https://github.com/user-attachments/assets/3a04c813-4c71-4a29-be8d-bc74536d6d74)
+
 - This is the page where a user can enter the calories burnt. The value will be updated to the database.
 
 ## Meal Plan
-<img width="1217" alt="image" src="https://github.com/user-attachments/assets/3b4c57fb-78bd-46bf-92d5-59bd554ddc7f">
+![image](https://github.com/user-attachments/assets/6391e084-1a0e-4ffb-8c6b-fbc39b92e072)
+
 - This is the page where a user can enter the details to get an ai enhanced list of meals that suits their purpose.
 
-## Knowledge Quiz
-<img width="1217" alt="image" src="https://github.com/apurv-choudhari/calorieApp_server/blob/main/static/img/quiz.png">
-- This is the page where a user can test the knowledge about diet, calories and workout through the quiz.
+## Water Intake
+![image](https://github.com/user-attachments/assets/cce1fa97-d3ac-4129-a538-4dfcb90a9880)
 
-## Share your achievements on Social Media
-<img width="1324" alt="Screenshot 2024-11-01 at 7 55 16 PM" src="https://github.com/user-attachments/assets/0ee71288-a719-4e19-91dd-f242dab50c84">
-<img width="1323" alt="Screenshot 2024-11-01 at 7 55 42 PM" src="https://github.com/user-attachments/assets/4060aecc-84cc-441a-8ea2-8ad8955683c9">
-- This is the page where you can share your progress to Social Media.
+- This is the page where the user can record the amount of water to drink and how much amount is done drinking.
+
+## Exercise Recommendation
+![image](https://github.com/user-attachments/assets/32b2044a-0972-4c94-919e-bd2a64a635b8)
+
+-- Get recommendation for teh exercises you want to do
 
 ## Daily Challenge
-<img width="1321" alt="Screenshot 2024-11-01 at 7 48 30 PM" src="https://github.com/user-attachments/assets/aabed0e1-9418-4c2f-ac92-ebed33184aad">
-<img width="1323" alt="Screenshot 2024-11-01 at 7 48 53 PM" src="https://github.com/user-attachments/assets/d86f6713-f87e-43bb-b591-b9383295af58">
+![image](https://github.com/user-attachments/assets/b846847d-c2cf-4536-8928-fcc3e68423b2)
+
 - This is the page where you can find Daily Challenges and share your achievements once completed.
 
  # Steps for execution
@@ -202,11 +204,11 @@ This is the page where the user can see their history in the form of a bar graph
  Step 2: 
   Git Clone the Repository 
   
-    git clone https://github.com/deekay2310/calorieApp_server.git
+    git clone https://github.com/RAV-Organization/SE_Project3_calorieApp_server.git
     
   (OR) Download the .zip file on your local machine
   
-    https://github.com/deekay2310/calorieApp_server.git
+    https://github.com/RAV-Organization/SE_Project3_calorieApp_server.git
   
  Step 3:
    Install the required packages by running the following command in the terminal 
@@ -262,7 +264,7 @@ This is the page where the user can see their history in the form of a bar graph
   # Source Code
   
   Link to the repository:
-  https://github.com/deekay2310/calorieApp_server
+  https://github.com/RAV-Organization/SE_Project3_calorieApp_server/tree/meta_2.0_final
      
    # Contributers
    
@@ -270,17 +272,22 @@ This is the page where the user can see their history in the form of a bar graph
   <table>
     <!-- First Row -->
     <tr>
+      <td align="center"><a href="https://github.com/ananyadoshi31"><br /><sub><b>Ananya Doshi</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/riya-bihani"><br /><sub><b>Riya Bihani</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/Vansh17"><br /><sub><b>Vansh Dodiya</b></sub></a><br /></td>
+    </tr>
+     <!-- Second Row -->
+    <tr>
       <td align="center"><a href="https://github.com/prabhudatta3004"><br /><sub><b>Prabhudatta Mishra</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/apurv-choudhari"><br /><sub><b>Apurv Choudhari</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/sankar16"><br /><sub><b>Sankar Raghuthaman</b></sub></a><br /></td>
     </tr>
-    <!-- Second Row -->
+    <!-- Additional Rows -->
     <tr>
       <td align="center"><a href="https://github.com/anuj672"><br /><sub><b>Anuj Naresh Chetwani</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/bhaveshittadwar"><br /><sub><b>Bhavesh Ittadwar</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/itsJash"><br /><sub><b>Jash Shah</b></sub></a><br /></td>
     </tr>
-    <!-- Additional Rows -->
     <tr>
       <td align="center"><a href="https://github.com/VaibhaviSangawar"><br /><sub><b>Vaibhavi Sangawar</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/utsavll0"><img src="https://avatars.githubusercontent.com/utsavll0" width="100px;" alt=""/><br /><sub><b>Utsavkumar Lal</b></sub></a><br /></td>
@@ -305,12 +312,12 @@ This is the page where the user can see their history in the form of a bar graph
 
   # Contribution
   
-  Please refer the [CONTRIBUTING.md](https://github.com/deekay2310/calorieApp_server/blob/main/CONTRIBUTING.md) file for instructions on how to contribute to our repository.
+  Please refer the [CONTRIBUTING.md](https://github.com/RAV-Organization/SE_Project3_calorieApp_server/blob/meta_2.0_final/CONTRIBUTING.md) file for instructions on how to contribute to our repository.
 
   <p align="center">
-    <a href="https://github.com/deekay2310/calorieApp_server/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/RAV-Organization/SE_Project3_calorieApp_server/issues/new/choose">Report Bug</a>
     /
-    <a href="https://github.com/deekay2310/calorieApp_server/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/RAV-Organization/SE_Project3_calorieApp_server/issues/new/choose">Request Feature</a>
   </p>
 
   # License

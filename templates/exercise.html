@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% extends "layout.html" %}
+{% block content %}
+    <div class="container mt-5" style="margin-bottom: 50px;"> <!-- Added margin-bottom -->
+        <h1 class="text-center">Exercise Finder</h1>
+        <form method="POST" class="mt-4">
+            <div class="mb-3">
+                <label for="muscle" class="form-label">Muscle/Body Part:</label>
+                <input type="text" id="muscle" name="muscle" class="form-control" placeholder="e.g., biceps, triceps" required>
+            </div>
+            <div class="mb-3">
+                <label for="difficulty" class="form-label">Difficulty Level:</label>
+                <select id="difficulty" name="difficulty" class="form-select" required>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Get Exercises</button>
+        </form>
+        {% if error_message %}
+        <div class="alert alert-danger mt-4">{{ error_message }}</div>
+        {% endif %}
+        {% if exercises %}
+        <div class="mt-5">
+            <h2>Exercises:</h2>
+            <ul class="list-group">
+                {% for exercise in exercises %}
+                <li class="list-group-item">
+                    <h5>{{ exercise.name }}</h5>
+                    <p><strong>Type:</strong> {{ exercise.type }}</p>
+                    <p><strong>Muscle:</strong> {{ exercise.muscle }}</p>
+                    <p><strong>Equipment:</strong> {{ exercise.equipment }}</p>
+                    <p><strong>Difficulty:</strong> {{ exercise.difficulty }}</p>
+                    <p><strong>Instructions:</strong> {{ exercise.instructions }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+{% endblock content %}
